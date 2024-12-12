@@ -41,5 +41,13 @@
         "metadata": {
             "tool_call_id": "call_vucW8uFrpWYv2GAIF9OjkyDh"
         }
+    },
+    {
+        "id": "af6c13ee-dbef-42b9-990b-b9736463a5f3",
+        "timestamp": "2024-12-12T15:51:23.208411Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "The header currently displays \"YourApp\". What would you like to change?",
+        "metadata": {}
     }
 ]
