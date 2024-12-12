@@ -59,5 +59,13 @@
         "metadata": {
             "component_id": "Header1733741173"
         }
+    },
+    {
+        "id": "2bfbf4c1-e304-4912-9640-ed3c0c6e80f2",
+        "timestamp": "2024-12-12T16:36:02.164864Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "The header currently says \"YourApp\".",
+        "metadata": {}
     }
 ]
