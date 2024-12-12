@@ -67,5 +67,15 @@
         "source": "base_assistant",
         "content": "The header currently says \"YourApp\".",
         "metadata": {}
+    },
+    {
+        "id": "ec0e6c5f-7bde-4d5b-8ebc-bde10950d03e",
+        "timestamp": "2024-12-12T16:36:13.474075Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "what does the header say?",
+        "metadata": {
+            "component_id": "Header1733741173"
+        }
     }
 ]
