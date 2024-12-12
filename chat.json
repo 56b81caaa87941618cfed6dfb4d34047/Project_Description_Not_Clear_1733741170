@@ -103,5 +103,23 @@
         "source": "base_assistant",
         "content": "The header displays \"YourApp\". How would you like to modify it?",
         "metadata": {}
+    },
+    {
+        "id": "5a6c69fa-0cf3-4ccd-89f9-7ef023d76066",
+        "timestamp": "2024-12-12T16:36:26.874873Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "what does the header say?",
+        "metadata": {
+            "component_id": "Header1733741173"
+        }
+    },
+    {
+        "id": "844fc06c-ecce-4c2d-9914-92354bd7ddfa",
+        "timestamp": "2024-12-12T16:36:29.205506Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "The text displayed in the header is \"YourApp\".",
+        "metadata": {}
     }
 ]
