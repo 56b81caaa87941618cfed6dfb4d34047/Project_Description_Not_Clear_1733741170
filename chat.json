@@ -121,5 +121,23 @@
         "source": "base_assistant",
         "content": "The text displayed in the header is \"YourApp\".",
         "metadata": {}
+    },
+    {
+        "id": "5c547b44-7819-48d5-8c1e-e96cb2fa47f2",
+        "timestamp": "2024-12-12T16:36:32.731981Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "what does the header say?",
+        "metadata": {
+            "component_id": "Header1733741173"
+        }
+    },
+    {
+        "id": "85299222-9e15-4a10-bc6f-7ce4bac2b1a3",
+        "timestamp": "2024-12-12T16:36:34.758918Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "The header says \"YourApp.\" How can I assist you further with it?",
+        "metadata": {}
     }
 ]
