@@ -121,5 +121,15 @@
         "source": "base_assistant",
         "content": "The text displayed in the header is \"YourApp\".",
         "metadata": {}
+    },
+    {
+        "id": "5c547b44-7819-48d5-8c1e-e96cb2fa47f2",
+        "timestamp": "2024-12-12T16:36:32.731981Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "what does the header say?",
+        "metadata": {
+            "component_id": "Header1733741173"
+        }
     }
 ]
