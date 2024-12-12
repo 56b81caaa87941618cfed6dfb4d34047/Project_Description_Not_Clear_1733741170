@@ -6,5 +6,48 @@
         "source": "base_assistant",
         "content": "Welcome to your new project! I can help you edit it however you want. What would you like to do?",
         "metadata": {}
+    },
+    {
+        "id": "acf68e40-5dce-425f-a41e-c8f4d03fe2a2",
+        "timestamp": "2024-12-12T15:51:20.260501Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "what does it say on the header?",
+        "metadata": {
+            "component_id": "Hero1733741173"
+        }
+    },
+    {
+        "id": "471e87b1-d7bb-412c-9975-0a02f22e6d85",
+        "timestamp": "2024-12-12T15:51:22.304975Z",
+        "role": "tool_call",
+        "source": "base_assistant",
+        "content": null,
+        "metadata": {
+            "id": "call_vucW8uFrpWYv2GAIF9OjkyDh",
+            "function": {
+                "arguments": "{\"component_id\":\"Header1733741173\"}",
+                "name": "ReadComponentCode"
+            },
+            "type": "function"
+        }
+    },
+    {
+        "id": "55c48105-c4ca-4388-a51f-22cacbef1eaa",
+        "timestamp": "2024-12-12T15:51:22.433975Z",
+        "role": "tool_result",
+        "source": "ReadComponentCode",
+        "content": "import React from 'react';\n\nconst Header: React.FC = () => {\n  return (\n    <header className=\"bg-blue-500 text-white p-4 w-full h-full\"> {/* Full width and height */}\n      <div className=\"container mx-auto flex justify-between items-center h-full\">\n        <div className=\"text-2xl font-bold\">YourApp</div>\n      </div>\n    </header>\n  );\n};\n\nexport { Header as component };",
+        "metadata": {
+            "tool_call_id": "call_vucW8uFrpWYv2GAIF9OjkyDh"
+        }
+    },
+    {
+        "id": "af6c13ee-dbef-42b9-990b-b9736463a5f3",
+        "timestamp": "2024-12-12T15:51:23.208411Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "The header currently displays \"YourApp\". What would you like to change?",
+        "metadata": {}
     }
 ]
