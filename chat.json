@@ -131,5 +131,13 @@
         "metadata": {
             "component_id": "Header1733741173"
         }
+    },
+    {
+        "id": "85299222-9e15-4a10-bc6f-7ce4bac2b1a3",
+        "timestamp": "2024-12-12T16:36:34.758918Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "The header says \"YourApp.\" How can I assist you further with it?",
+        "metadata": {}
     }
 ]
