@@ -6,5 +6,15 @@
         "source": "base_assistant",
         "content": "Welcome to your new project! I can help you edit it however you want. What would you like to do?",
         "metadata": {}
+    },
+    {
+        "id": "acf68e40-5dce-425f-a41e-c8f4d03fe2a2",
+        "timestamp": "2024-12-12T15:51:20.260501Z",
+        "role": "user",
+        "source": "web_client",
+        "content": "what does it say on the header?",
+        "metadata": {
+            "component_id": "Hero1733741173"
+        }
     }
 ]
